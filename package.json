@@ -1,0 +1,18 @@
+{
+  "name": "roc-interview",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Road-of-CODEr/interview.git",
+  "author": "1ilsang <1ilsang@naver.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "lint": "markdownlint --config ./.markdownlint.js **/*.{md,mdx} --ignore node_modules",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "markdownlint": "^0.27.0",
+    "markdownlint-cli": "^0.33.0"
+  }
+}
