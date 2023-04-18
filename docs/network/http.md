@@ -11,10 +11,9 @@
 - REST API 메서드? GET, POST, PUT, DELETE
 
 기본적으로 connection less 프로토콜이지만 'keep-alive', '파이프라이닝' 으로 성능 향상 도모 가능하다. RTT가 줄어들고, 3-way handshake 횟수가 즐어든다.
+하지만 이마자도 HOLB(Head Of Line Blocking) 문제가 있기는 하다.
 
 - 쿠키? 비연결형인 HTTP에서 상태 정보 유지를 위함이다. 클라이언트 로컬에 저장되는 '키: 값'의 쌍으로 만료일자가 존재한다.
-
-하지만 이마자도 HOLB(Head Of Line Blocking) 문제가 있기는 하다.
 
 
 
