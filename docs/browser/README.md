@@ -4,4 +4,3 @@
 
 - [브라우저의 동작](./work.md)
 - [브라우저의 비동기 작업](./async.md)
-- [http와 https](./http-https.md)
